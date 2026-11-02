@@ -1,0 +1,126 @@
+/* estilo general */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* cabecera */
+header {
+    background-color: #ffffff;
+    color: #2c3e50;
+    text-align: center;
+    padding: 3.5rem 1rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+header h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #718096;
+    font-weight: 400;
+}
+
+
+/* secciones */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background-color: #ffffff;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+/* listas y links */
+ul {
+    padding-left: 20px;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    color: gray;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* estilo calculadora */
+#calculadora form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+#calculadora input[type="number"],
+#calculadora select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 130px;
+}
+
+#calculadora button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#calculadora button:hover {
+    background-color: #2471a3;
+}
+
+#calculadora #resultado {
+    margin-top: 0.5rem;
+    padding: 0.1rem 1em;
+    background-color: #f1f8fc;
+    border-left: 3px solid #2471a3;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
